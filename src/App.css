@@ -6,4 +6,25 @@
 
 .App__header {
   background-color: aliceblue;
+  display: flex;
+}
+
+li {
+  list-style-type: none;
+}
+
+.opcoes {
+  display: flex;
+}
+
+.opcoes__item {
+  min-width: 120px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  padding:  0 5px;
+  cursor: pointer;
 }
