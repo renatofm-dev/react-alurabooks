@@ -9,9 +9,7 @@ const AppContainer = styled.div`
       background-image: linear-gradient(90deg, #002F52 35%, #326589);
 
 
-    li {
-      list-style-type: none;
-    }
+
 `
 
 function App() {
